@@ -138,7 +138,7 @@ Device: GPU
 
 ``` python
 # Load data
-data_path = '/data2/lackey_lab/DownloadedSequenceData/austin/claude/data_4_claude.txt'  # Update this path if needed
+data_path = 'data/data.txt'  # Update this path if needed
 
 print("Loading SHAPE data...")
 df = pd.read_csv(data_path, sep='\t')
