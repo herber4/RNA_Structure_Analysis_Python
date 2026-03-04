@@ -350,7 +350,7 @@ print(f"  Min: {wt_profile.min():.4f}")
 print(f"  Max: {wt_profile.max():.4f}")
 ```
 
-![png](output_11_0.png)
+![png](figs/output_11_0.png)
 
 ```         
 WT profile statistics:
