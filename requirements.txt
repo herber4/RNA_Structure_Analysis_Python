@@ -1,0 +1,10 @@
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+scipy
+umap-learn
+tqdm
+joblib
+# Note: Install torch separately following https://pytorch.org/get-started/locally/
