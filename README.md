@@ -468,7 +468,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-![png](output_16_0.png)
+![png](figs/output_16_0.png)
 
 ``` python
 # Heatmap of difference profiles for top 50 samples
@@ -495,7 +495,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-![png](output_17_0.png)
+![png](figs/output_17_0.png)
 
 ## Part 6: Distribution Analysis by Annotation
 
@@ -568,7 +568,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-![png](output_20_0.png)
+![png](figs/output_20_0.png)
 
 ## Part 7: Regional Analysis - Find Hotspots
 
@@ -653,7 +653,7 @@ for i, region in enumerate(top_regions, 1):
     print(f"  {i}. Position {region}-{region+window_size} (variance={window_variance[region]:.4f})")
 ```
 
-![png](output_23_0.png)
+![png](figs/output_23_0.png)
 
 ```         
 Top 5 most variable regions (window start positions):
@@ -695,7 +695,7 @@ Performing PCA...
   Variance explained by first 10 PCs: 0.461
 ```
 
-![png](output_25_1.png)
+![png](figs/output_25_1.png)
 
 ``` python
 # Dimensionality reduction for visualization
@@ -788,7 +788,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-![png](output_28_0.png)
+![png](figs/output_28_0.png)
 
 ## Part 9: Cluster Characterization
 
@@ -990,7 +990,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-![png](output_31_0.png)
+![png](figs/output_31_0.png)
 
 ## Part 10: Deep Learning - Autoencoder
 
@@ -1161,7 +1161,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-![png](output_36_0.png)
+![png](figs/output_36_0.png)
 
 ``` python
 # Get encodings
@@ -1213,7 +1213,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-![png](output_38_0.png)
+![png](figs/output_38_0.png)
 
 ## Part 11: Deep Learning - Attention Model
 
@@ -1506,7 +1506,7 @@ plt.show()
 print(f"Final test accuracy: {test_accs[-1]:.2f}%")
 ```
 
-![png](output_45_0.png)
+![png](figs/output_45_0.png)
 
 ```         
 Final test accuracy: 31.43%
@@ -1549,7 +1549,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-![png](output_48_0.png)
+![png](figs/output_48_0.png)
 
 ``` python
 # Find most important positions overall
@@ -1605,7 +1605,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-![png](output_50_0.png)
+![png](figs/output_50_0.png)
 
 ## Part 13: Summary and Export Results
 
